@@ -141,9 +141,9 @@ The notebook creates the dataset and output directories when executed. Model che
 
 ## Learning outcomes
 
-By implementing this project, you can explore:
+By implementing this project, We can explore:
 
-- Character-level tokenization and vocabulary construction.
+
 - Token embeddings and positional embeddings.
 - Scaled dot-product attention using Query, Key, and Value.
 - Causal masking and why future tokens must be hidden during training.
@@ -161,15 +161,6 @@ By implementing this project, you can explore:
 - The model has a small number of parameters and a limited context window.
 - It is not instruction-tuned and is not designed for general questions, factual answers, or task completion.
 - Generated text can be repetitive, grammatically inconsistent, or nonsensical, especially with limited training.
-
-## Possible extensions
-
-- Experiment with model depth, embedding size, attention heads, context length, and training steps.
-- Compare generated samples at different temperatures.
-- Visualize attention weights and causal masks.
-- Compare character-level and subword tokenization.
-- Train on a different text corpus and compare domain-specific generation.
-- Build a small interactive interface for prompt-based generation.
 
 ## Acknowledgements
 
